@@ -1,0 +1,65 @@
+URxvt.scrollBar: false
+URxvt*font: xft:DejaVu Sans Mono:style=Regular:pixelsize=19
+URxvt*boldFont: xft:DejaVu Sans Mono:style=Bold:pixelsize=19
+URxvt.iconFile: /usr/share/icons/Faenza/apps/32/terminal.png
+URxvt*geometry: 72x20+390+200
+URxvt*secondaryScroll: true
+URxvt*depth: 32
+URxvt*internalBorder: 5
+URxvt*tripleclickwords: true
+
+xterm*faceName: xft:DejaVu Sans Mono:style=Regular:pixelsize=19
+
+Xft.dpi: 120
+
+Xft.autohint: 1
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+! for man pages
+URxvt.colorIT:      #87af5f
+URxvt.colorBD:      #d7d7d7
+URxvt.colorUL:      #87afd7
+
+!------------------------------------------------------------------------------
+! Colorscheme - Modified jellybeans
+!------------------------------------------------------------------------------
+
+*.cursorColor: #8197BF
+*background: #0a0b12
+*foreground: #C5C8C6
+
+! black
+*color0: #1C1C1C
+*color8: #3d3a53
+
+! red
+*color1: #B85335
+*color9: #CF6A4C
+
+! green
+*color2: #799D6A
+*color10: #99AD6A
+
+! yellow
+*color3: #FFB964
+*color11: #FAD07A
+
+! blue
+*color4: #667899
+*color12: #8197BF
+
+! magenta
+*color5: #8787AF
+*color13: #C6B6EE
+
+! cyan
+*color6: #668799
+*color14: #8FBFDC
+
+! white
+*color7: #425966
+*color15: #E8E8D3

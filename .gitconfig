@@ -1,0 +1,18 @@
+[pager]
+  log = "less -S"
+
+[user]
+  email = kyle@earths.center
+  name = Kyle Baker
+
+[alias]
+
+  # shows all of the aliases
+  aliases = "!git config -l | grep alias | cut -c 7-"
+
+  # pretty commit graph
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+  # diff a file relative to the current dir with some previous version
+  # `git diff-file worker.ex HEAD^^`
+  diff-file = "!git diff $2 HEAD ${GIT_PREFIX:-./}/$1 #"

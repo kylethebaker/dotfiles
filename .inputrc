@@ -1,0 +1,17 @@
+# Color files by types
+# Note that this may cause completion text blink in some terminals (e.g. xterm).
+set colored-stats On
+# Append char to indicate type
+set visible-stats Off
+# Mark symlinked directories
+set mark-symlinked-directories On
+# Color the common prefix
+set colored-completion-prefix On
+# Color the common prefix in menu-complete
+set menu-complete-display-prefix On
+# Don't show like ^C
+set echo-control-characters off
+# Don't show trailing slash on directories, because we have colors
+set mark-directories Off
+# Don't have to double tap tab to show completions
+set show-all-if-unmodified On

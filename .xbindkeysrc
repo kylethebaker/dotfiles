@@ -1,0 +1,17 @@
+"~/.utils/change-volume.sh 4%+ unmute"
+  XF86AudioRaiseVolume
+
+"~/.utils/change-volume.sh 4%- unmute"
+  XF86AudioLowerVolume
+
+"~/.utils/change-volume.sh toggle"
+  XF86AudioMute
+
+"~/.utils/change-brightness.sh -dec 10"
+  XF86MonBrightnessDown
+
+"~/.utils/change-brightness.sh -inc 10"
+  XF86MonBrightnessUp
+
+"~/.utils/show-battery.sh"
+  XF86AudioPlay
