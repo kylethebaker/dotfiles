@@ -33,7 +33,7 @@ HISTFILESIZE=2000
 
 # just in case...
 alias rm='rm -i'
-#alias cp='cp -i'
+alias cp='cp -i'
 alias mv='mv -i'
 
 # check just AUR packages for updates
