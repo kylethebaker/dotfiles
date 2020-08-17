@@ -14,14 +14,12 @@ if [[ $volume == 0 || "$mute" == "off" ]]; then
     dunstify \
       -a "$msgName" \
       -u low \
-      -i audio-volume-muted \
       -r "$msgId" \
       "Volume muted"
 else
     dunstify \
       -a "$msgName" \
       -u low \
-      -i audio-volume-high \
       -r "$msgId" \
       "Volume ${volume}%"
 fi

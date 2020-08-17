@@ -17,7 +17,7 @@ xrdb /home/kyle/.Xresources
 picom &
 
 # Enable ssh-agent
-#eval $(ssh-agent)
+eval $(ssh-agent)
 
 # Setup media hotkeys
 xbindkeys

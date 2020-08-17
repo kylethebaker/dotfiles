@@ -5,8 +5,12 @@
   email = kyle@earths.center
   name = Kyle Baker
 
-[alias]
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
 
+[alias]
   # shows all of the aliases
   aliases = "!git config -l | grep alias | cut -c 7-"
 
