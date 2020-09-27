@@ -14,4 +14,4 @@ set echo-control-characters off
 # Don't show trailing slash on directories, because we have colors
 set mark-directories Off
 # Don't have to double tap tab to show completions
-set show-all-if-unmodified On
+# set show-all-if-unmodified On

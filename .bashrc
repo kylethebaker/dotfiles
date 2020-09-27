@@ -49,7 +49,7 @@ alias gs='git status'
 alias vi='vim'
 
 # for juggling dotfiles in their separate gitdir
-alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='./.utils/dotfiles.sh'
 
 # god damnit nano
 export EDITOR=vim
@@ -163,6 +163,10 @@ function _git_prompt() {
 
 function shell() {
   PS1="$BBlack[$BWhite$PathShort$BBlack]$Color_Off$(_git_prompt) "
+
 }
+#function shell() {
+#  PS1="$BBlack[$BWhite$PathShort$BBlack]$Color_Off$(_git_prompt) "
+#}
 
 PROMPT_COMMAND=shell
