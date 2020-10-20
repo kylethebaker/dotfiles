@@ -49,13 +49,17 @@ alias gs='git status'
 alias vi='vim'
 
 # for juggling dotfiles in their separate gitdir
-alias dotfiles='./.utils/dotfiles.sh'
+alias dotfiles='~/.utils/dotfiles.sh'
 
 # god damnit nano
 export EDITOR=vim
 
 # enable history in iex/erl
 export ERL_AFLAGS="-kernel shell_history enabled"
+
+# npm doesn't follow any of the xdg stuf so we fake it
+export NPM_CONFIG_USERCONFIG=~/.config/npm/config
+export PATH=$PATH:~/.npm-global/bin
 
 # completions
 source /usr/share/git/completion/git-prompt.sh
@@ -165,8 +169,5 @@ function shell() {
   PS1="$BBlack[$BWhite$PathShort$BBlack]$Color_Off$(_git_prompt) "
 
 }
-#function shell() {
-#  PS1="$BBlack[$BWhite$PathShort$BBlack]$Color_Off$(_git_prompt) "
-#}
 
 PROMPT_COMMAND=shell
